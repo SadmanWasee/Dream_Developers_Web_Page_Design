@@ -39,11 +39,14 @@ body {
   margin-left: 20px;
   top: 44px;
   color: white;
+  cursor: pointer;
+  z-index: 999;
 }
 
 .navbar{
   position: relative;
   top: 16px;
+  
 }
 
 .dream{
@@ -53,7 +56,8 @@ body {
 
 .navbar ul {
   display: inline-block;
-  padding-left: 250px;
+  position: relative;
+  left: 200px;
 }
 .navbar ul li{
   display: inline-block;
@@ -67,11 +71,17 @@ body {
 }
 
 .contact-number{
+  cursor: pointer;
   position: absolute;
   padding: 10px 20px;
   background-color: rgb(51, 204, 255);
   right: 0;
   bottom: 0;
+}
+
+.contact-number a{
+  text-decoration: none;
+  color: white;
 }
 
 .contact-number img{
