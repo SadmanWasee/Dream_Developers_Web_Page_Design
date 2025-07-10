@@ -502,14 +502,8 @@ body {
 
 .social-media-buttons a{
   float: left;
-  padding-right: 10px;
+  padding-right: 3px;
   clear: left;
-}
-
-.facebook-icons{
-  position: relative;
-  cursor: pointer;
-  height: 20px;
 }
 
 .facebook-icon-blue{
@@ -517,15 +511,8 @@ body {
   display: none;
 }
 
-
-.facebook-icons:hover .facebook-icon-white{
-  display: none;
-}
-
-.twitter-icons{
-  position: relative;
-  cursor: pointer;
-  height: 25px;
+.facebook-icons:hover .facebook-icon-blue{
+  display: block;
 }
 
 .twitter-icon-blue{
@@ -533,19 +520,8 @@ body {
   display: none;
 }
 
-.twitter-icon-white{
-  position: absolute;
-  left: 0;
-}
-
 .twitter-icons:hover .twitter-icon-blue{
   display: block;
-}
-
-
-.linkedin-icons{
-  position: relative;
-  cursor: pointer;
 }
 
 .linkedin-icon-blue{
@@ -553,18 +529,8 @@ body {
   display: none;
 }
 
-.linkesdin-icon-white{
-  position: absolute;
-  left: 0;
-}
-
 .linkedin-icons:hover .linkedin-icon-blue{
   display: block;
-}
-
-.mail-icons{
-  position: relative;
-  cursor: pointer;
 }
 
 .mail-icon-blue{
@@ -572,28 +538,13 @@ body {
   display: none;
 }
 
-.mail-icon-white{
-  position: absolute;
-  left: 0;
-}
-
 .mail-icons:hover .mail-icon-blue{
   display: block;
-}
-
-.edit-icons{
-  position: relative;
-  cursor: pointer;
 }
 
 .edit-icon-blue{
   position: absolute;
   display: none;
-}
-
-.edit-icon-white{
-  position: absolute;
-  left: 0;
 }
 
 .edit-icons:hover .edit-icon-blue{
