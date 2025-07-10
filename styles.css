@@ -370,29 +370,28 @@ body {
 .motto{
   font-size: 21px;
   font-weight: 100;
-  width: 400px;
-  margin:auto;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .about-us-right{
   float: right;
   width: 28.5%;
-  border-left: 4px solid rgb(166, 166, 166);
-  padding-left: 20px;
+  border-left: 4px solid #d9d9d9;
+  padding-left: 0px;
 }
 
-.who-we-are p{
-  display: inline; 
+
+.about-us-right div{
+  display: inline-block; 
   font-size: 14px; 
   color: rgb(77, 77, 77);
+  padding-left:22px ;
 }
 
-.vision p{
-  display: inline; 
-  font-size: 14px; 
-  color: rgb(77, 77, 77);
+.about-us-right img{
+  padding-right: 20px;
 }
+
 
 .more-info{
   color: rgb(51, 204, 255); 
