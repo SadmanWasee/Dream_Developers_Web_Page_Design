@@ -86,7 +86,7 @@ body {
   background-image: url(./images/slider-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 500px;
 }
 
 .banner-container{
@@ -98,7 +98,6 @@ body {
 .banner-message{
   position: absolute;
   top: 150px;
-  left: 0px;
   background-color: white;
   opacity: 0.80;
   padding:10px 15px;
@@ -130,7 +129,6 @@ body {
 }
 
 .message-and-right-navbar{
-  position: relative;
   margin: 0;
   
 }
@@ -148,8 +146,7 @@ body {
 
 .project-type{
   border-bottom: 1px solid rgb(204, 204, 204);
-  margin-bottom: 10px;
-  width: 470px;
+  width: 468px;
 }
 
 .project-type h4{
@@ -159,6 +156,15 @@ body {
 .grey-text{
   color: rgb(204, 204, 204);
   padding-left: 15px;
+}
+
+.grey-text i{
+  font-size: 23px;
+}
+
+.right-border{
+  border-right: 2px solid rgb(204, 204, 204); 
+  padding-right: 10px;
 }
 
 .grey-text:hover{
@@ -173,6 +179,11 @@ body {
 .right-navbar ul{
   list-style: none;
   margin-top: 0;
+}
+
+.bottom{
+  padding-top: 15px;
+  margin-bottom: 0;
 }
 
 .right-navbar ul li{
@@ -193,18 +204,16 @@ body {
 
 .project-images{
   padding-top: 30px;
-  width: 1000px;
-  margin: auto;
-  height: 50vh;
+  height: 350px;
 }
 
 .project-images div{
   float: left;
 }
 
-.project-images img{
+.project-images div{
   padding-right: 4px;
-  width: 246px;
+  width: 24.5%;
 }
 
 .project-1 {
@@ -281,10 +290,46 @@ body {
   top: 0;
 }
 
+.project-1:hover .explore1{
+  display: block;
+}
+
+.project-1:hover .project-description1{
+  display: none;
+}
+
+.project-2:hover .explore2{
+  display: block;
+}
+
+.project-2:hover .project-description2{
+  display: none;
+}
+
+.project-3:hover .explore3{
+  display: block;
+}
+
+.project-3:hover .project-description3{
+  display: none;
+}
+
+.project-4:hover .explore4{
+  display: block;
+}
+
+.project-4:hover .project-description4{
+  display: none;
+}
+
 .project-address{
   font-style: italic;
   font-size: 14px;
   color: rgb(77, 77, 77);
+}
+
+.about-us-segment{
+  height: 400px;
 }
 
 .about-us-left{
@@ -294,12 +339,19 @@ body {
   border-right: 2px solid rgb(166, 166, 166);
 }
 
+.about-us-left span{
+  color: rgb(51, 204, 255); 
+  font-size: 14px;
+} 
+
+
 .about-us-left img{
   float: left;
   margin-right: 30px;
 }
 
 .description{
+  color: rgb(77, 77, 77);
   position: relative;
   top: 20px;
   clear: left;
@@ -319,15 +371,225 @@ body {
   left: 20px;
 }
 
+.who-we-are p{
+  display: inline; 
+  font-size: 14px; 
+  color: rgb(77, 77, 77);
+}
+
+.vision p{
+  display: inline; 
+  font-size: 14px; 
+  color: rgb(77, 77, 77);
+}
+
+.more-info{
+  color: rgb(51, 204, 255); 
+  cursor: pointer; 
+  font-size: 14px;
+}
+
 
 .footer{
-  margin-top: 100px;
-  background: url(./images/footer-image.png);
-  background-size: cover;
-  width: 100%;
+  background-image: url(./images/footer-image.png);
+  height: 300px;
 }
 
 .footer-container{
-  width: 1150px;
+  padding-top: 25px;
+  clear: both;
+  width: 1000px;
   margin: 0 auto;
+  color: white;
+}
+
+.footer-container div{
+  float: left;
+}
+
+.testimonial{
+  width: 25%;
+}
+
+.testimonial hr{
+  width: 170px; 
+  margin-left: 0; 
+  display: inline-block;
+}
+
+.testimonial i{
+  color: white;
+}
+
+.quick-links{
+  width: 25%;
+  position: relative;
+}
+
+.address{
+  width: 25%;
+}
+
+.subscribe{
+  width: 25%;
+}
+
+.subscribe input{
+  width: 100%; 
+  height: 25px;
+}
+
+.subscribe button{
+  color: white; 
+  background-color: rgb(51, 204, 255); 
+  border: none; 
+  padding: 10px 15px; 
+  width: 75px; 
+  margin-top: 10px;
+}
+
+
+.quick-links img{
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+
+.quick-links a{
+  text-decoration: none;
+  padding-left: 0;
+  padding-bottom: 10px;
+  color: rgb(191, 191, 191);
+} 
+
+.quick-links a:hover{
+  color: white;
+}
+
+.address {
+  position: relative;
+}
+
+.address img{
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+.address p{
+  color: rgb(191, 191, 191);
+}
+
+.subscribe span{
+  height: 70px;
+}
+
+.subscribe i{
+  font-size: 25px;
+  color:white;
+}
+
+
+
+.facebook-icons{
+  position: relative;
+  cursor: pointer;
+  height: 20px;
+}
+
+.facebook-icon-blue{
+  position: absolute;
+  display: none;
+}
+
+.facebook-icon-white{
+  position: absolute;
+  left: 0;
+}
+
+.facebook-icons:hover .facebook-icon-white{
+  display: none;
+}
+
+.twitter-icons{
+  position: relative;
+  cursor: pointer;
+  left: 10px;
+  height: 25px;
+}
+
+.twitter-icon-blue{
+  position: absolute;
+  display: none;
+}
+
+.twitter-icon-white{
+  position: absolute;
+  left: 0;
+}
+
+.twitter-icons:hover .twitter-icon-blue{
+  display: block;
+}
+
+
+.linkedin-icons{
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+}
+
+.linkedin-icon-blue{
+  position: absolute;
+  display: none;
+}
+
+.linkesdin-icon-white{
+  position: absolute;
+  left: 0;
+}
+
+.linkedin-icons:hover .linkedin-icon-blue{
+  display: block;
+}
+
+.mail-icons{
+  position: relative;
+  left: 60px;
+  cursor: pointer;
+}
+
+.mail-icon-blue{
+  position: absolute;
+  display: none;
+}
+
+.mail-icon-white{
+  position: absolute;
+  left: 0;
+}
+
+.mail-icons:hover .mail-icon-blue{
+  display: block;
+}
+
+.edit-icons{
+  position: relative;
+  left: 100px;
+  cursor: pointer;
+}
+
+.edit-icon-blue{
+  position: absolute;
+  display: none;
+}
+
+.edit-icon-white{
+  position: absolute;
+  left: 0;
+}
+
+.edit-icons:hover .edit-icon-blue{
+  display: block;
 }
