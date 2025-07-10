@@ -217,11 +217,10 @@ body {
   height: 350px;
 }
 
-.project-images div{
-  float: left;
-}
+
 
 .project-images div{
+  float: left;
   padding-right: 4px;
   width: 24.5%;
 }
@@ -501,7 +500,11 @@ body {
   color:white;
 }
 
-
+.social-media-buttons a{
+  float: left;
+  padding-right: 10px;
+  clear: left;
+}
 
 .facebook-icons{
   position: relative;
@@ -514,10 +517,6 @@ body {
   display: none;
 }
 
-.facebook-icon-white{
-  position: absolute;
-  left: 0;
-}
 
 .facebook-icons:hover .facebook-icon-white{
   display: none;
@@ -526,7 +525,6 @@ body {
 .twitter-icons{
   position: relative;
   cursor: pointer;
-  left: 10px;
   height: 25px;
 }
 
@@ -547,7 +545,6 @@ body {
 
 .linkedin-icons{
   position: relative;
-  left: 50px;
   cursor: pointer;
 }
 
@@ -567,7 +564,6 @@ body {
 
 .mail-icons{
   position: relative;
-  left: 60px;
   cursor: pointer;
 }
 
@@ -587,7 +583,6 @@ body {
 
 .edit-icons{
   position: relative;
-  left: 100px;
   cursor: pointer;
 }
 
