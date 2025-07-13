@@ -432,11 +432,13 @@ body {
   margin-top: 10px;
 }
 
+.quick-links h4{
+  display: inline;
+}
 
 .quick-links img {
-  position: absolute;
-  top: 10px;
-  left: 100px;
+  vertical-align: middle;
+  padding-left: 10px;
 }
 
 
@@ -450,6 +452,7 @@ body {
 .quick-links ul {
   list-style: none;
   padding: 0;
+  padding-top: 10px;
   margin: 0;
 }
 
@@ -465,10 +468,13 @@ body {
   position: relative;
 }
 
+.address-header {
+  display: inline;
+}
+
 .address img {
-  position: absolute;
-  top: 10px;
-  left: 100px;
+  vertical-align: middle;
+  padding-left: 10px;
 }
 
 .address p {
