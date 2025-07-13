@@ -395,6 +395,14 @@ body {
   width: 25%;
 }
 
+.testimonial .left-arrow{
+  border-radius: 15px;
+}
+
+.testimonial p{
+  color:rgb(191, 191, 191);
+}
+
 .testimonial hr {
   width: 170px;
   margin-left: 0;
@@ -419,7 +427,7 @@ body {
 }
 
 .subscribe input {
-  width: 100%;
+  width: 70%;
   height: 25px;
 }
 
@@ -475,10 +483,6 @@ body {
 .address img {
   vertical-align: middle;
   padding-left: 10px;
-}
-
-.address p {
-  color: rgb(191, 191, 191);
 }
 
 .subscribe span {
