@@ -329,7 +329,7 @@ body {
 
 .about-us-left img {
   float: left;
-  margin-right: 30px;
+  padding-right: 10px;
 }
 
 .description {
@@ -343,7 +343,6 @@ body {
 .motto {
   font-size: 21px;
   font-weight: 100;
-  padding-bottom: 20px;
 }
 
 .about-us-right {
@@ -362,9 +361,8 @@ body {
 }
 
 .about-us-right img {
-  padding-right: 20px;
+  padding-right: 15px;
 }
-
 
 .more-info {
   color: rgb(51, 204, 255);
@@ -372,11 +370,14 @@ body {
   font-size: 14px;
 }
 
+.about-us-right h4 {
+  display: inline-block;
+}
 
 .footer {
   clear: both;
   background-image: url(./images/footer-image.png);
-  height: 300px;
+  height: 350px;
 }
 
 .footer-container {
@@ -391,16 +392,19 @@ body {
   float: left;
 }
 
-.testimonial {
+.testimonial,
+.address,
+.quick-links,
+.subscribe {
   width: 25%;
 }
 
-.testimonial .left-arrow{
+.testimonial .left-arrow {
   border-radius: 15px;
 }
 
-.testimonial p{
-  color:rgb(191, 191, 191);
+.testimonial p {
+  color: rgb(191, 191, 191);
 }
 
 .testimonial hr {
@@ -411,19 +415,6 @@ body {
 
 .testimonial i {
   color: white;
-}
-
-.quick-links {
-  width: 25%;
-  position: relative;
-}
-
-.address {
-  width: 25%;
-}
-
-.subscribe {
-  width: 25%;
 }
 
 .subscribe input {
@@ -440,8 +431,8 @@ body {
   margin-top: 10px;
 }
 
-.quick-links h4{
-  display: inline;
+.quick-links h4 {
+  display: inline-block;
 }
 
 .quick-links img {
@@ -464,7 +455,7 @@ body {
   margin: 0;
 }
 
-.quick-links li{
+.quick-links li {
   padding-top: 10px;
 }
 
@@ -472,12 +463,8 @@ body {
   color: white;
 }
 
-.address {
-  position: relative;
-}
-
 .address-header {
-  display: inline;
+  display: inline-block;
 }
 
 .address img {
@@ -527,7 +514,7 @@ body {
   display: block;
 }
 
-.share-segment-header{
+.share-segment-header {
   margin-bottom: 2px;
   margin-top: 30px;
 }
