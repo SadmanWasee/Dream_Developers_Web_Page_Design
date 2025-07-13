@@ -208,6 +208,12 @@ body {
   color: white;
 } 
 
+.right-navbar img{
+  position: relative;
+  top: 2.8px;
+  padding-right: 10px;
+}
+
 .right-navbar .bottom li{
   background-color: orangered;
 } 
@@ -218,79 +224,34 @@ body {
 }
 
 
-
 .project-images div{
   float: left;
   padding-right: 4px;
   width: 24.5%;
 }
 
-.project-1 {
+.project-1, .project-2, .project-3, .project-4 {
   position: relative;
   cursor: pointer;
-}
-.project-2 {
-  cursor: pointer;
-  position: relative;
-}
-.project-3 {
-  cursor: pointer;
-  position: relative;
 }
 
-.project-4 {
-  cursor: pointer;
-  position: relative;
-}
-.project-description1{
+.project-description1, .project-description2, .project-description3, .project-description4{
   position: absolute;
   display: block;
 }
-.explore1{
+.explore1, .explore2, .explore3, .explore4{
   position: absolute;
   display: none;
   cursor: pointer;
   opacity: 0.9;
 }
 
-.project-description2{
-  position: absolute;
-  display: block;
-}
-.explore2{
-  position: absolute;
-  display: none;
-  cursor: pointer;
-  opacity: 0.9;
-}
-
-.project-description3{
-  position: absolute;
-  display: block;
-}
-.explore3{
-  position: absolute;
-  display: none;
-  cursor: pointer;
-  opacity: 0.9;
-}
-
-.project-description4{
-  position: absolute;
-  display: block;
-}
-.explore4{
-  position: absolute;
-  display: none;
-  cursor: pointer;
-  opacity: 0.9;
-}
 
 .project-name-address{
   position: absolute;
   width: 246px;
   text-align: center;
-  top: 10px;
+  top: 15px;
   left: 0;
 }
 
@@ -506,7 +467,7 @@ body {
   clear: left;
 }
 
-.facebook-icon-blue{
+.facebook-icon-blue, .twitter-icon-blue, .linkedin-icon-blue, .edit-icon-blue, .mail-icon-blue{
   position: absolute;
   display: none;
 }
@@ -515,37 +476,20 @@ body {
   display: block;
 }
 
-.twitter-icon-blue{
-  position: absolute;
-  display: none;
-}
-
 .twitter-icons:hover .twitter-icon-blue{
   display: block;
-}
-
-.linkedin-icon-blue{
-  position: absolute;
-  display: none;
 }
 
 .linkedin-icons:hover .linkedin-icon-blue{
   display: block;
 }
 
-.mail-icon-blue{
-  position: absolute;
-  display: none;
-}
 
 .mail-icons:hover .mail-icon-blue{
   display: block;
 }
 
-.edit-icon-blue{
-  position: absolute;
-  display: none;
-}
+
 
 .edit-icons:hover .edit-icon-blue{
   display: block;
