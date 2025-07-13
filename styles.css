@@ -485,9 +485,19 @@ body {
 .linkedin-icon-blue,
 .edit-icon-blue,
 .mail-icon-blue {
-  position: absolute;
   display: none;
 }
+
+
+.facebook-icons:hover .facebook-icon-white,
+.twitter-icons:hover .twitter-icon-white,
+.linkedin-icons:hover .linkedin-icon-white,
+.mail-icons:hover .mail-icon-white,
+.edit-icons:hover .edit-icon-white {
+  display: none;
+}
+
+
 
 .facebook-icons:hover .facebook-icon-blue,
 .twitter-icons:hover .twitter-icon-blue,
