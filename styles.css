@@ -136,15 +136,10 @@ body {
 }
 
 .center-container {
-  clear: right;
   width: 1000px;
   margin: 0 auto;
 }
 
-.message-and-right-navbar {
-  margin: 0;
-
-}
 
 .message {
   text-align: center;
@@ -312,7 +307,7 @@ body {
 }
 
 .about-us-segment {
-  height: 400px;
+  padding-bottom: 50px;
 }
 
 .about-us-left {
@@ -375,14 +370,12 @@ body {
 }
 
 .footer {
-  clear: both;
   background-image: url(./images/footer-image.png);
-  height: 350px;
+  height: 325px;
 }
 
 .footer-container {
   padding-top: 25px;
-  clear: both;
   width: 1000px;
   margin: 0 auto;
   color: white;
@@ -390,13 +383,15 @@ body {
 
 .footer-container div {
   float: left;
+ 
 }
 
 .testimonial,
 .address,
 .quick-links,
 .subscribe {
-  width: 25%;
+  width: 23%;
+  padding-right: 20px;
 }
 
 .testimonial .left-arrow {
@@ -515,6 +510,6 @@ body {
 }
 
 .share-segment-header {
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   margin-top: 30px;
 }
