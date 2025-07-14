@@ -417,7 +417,6 @@ body {
 .quick-links ul {
   list-style: none;
   padding: 0;
-  padding-top: 10px;
   margin: 0;
   padding-top: 15px;
 }
@@ -453,7 +452,6 @@ body {
   display: none;
 }
 
-
 .facebook-icons:hover .facebook-icon-white,
 .twitter-icons:hover .twitter-icon-white,
 .linkedin-icons:hover .linkedin-icon-white,
@@ -461,8 +459,6 @@ body {
 .edit-icons:hover .edit-icon-white {
   display: none;
 }
-
-
 
 .facebook-icons:hover .facebook-icon-blue,
 .twitter-icons:hover .twitter-icon-blue,
