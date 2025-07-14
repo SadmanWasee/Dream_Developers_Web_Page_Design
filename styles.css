@@ -26,8 +26,7 @@ body {
 
 .logo {
   float: left;
-  padding-bottom: 5px;
-  margin-bottom: 1px;
+  padding-bottom: 6px;
 }
 
 .logo img {
@@ -43,10 +42,9 @@ body {
   z-index: 999;
 }
 
-.navbar {
-  position: relative;
-  top: 16px;
-
+.navbar ul{
+  padding-top: 20px;
+  margin: 0;
 }
 
 .dream {
@@ -490,7 +488,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body {
     width: 1200px;
   }
