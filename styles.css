@@ -340,6 +340,7 @@ body {
 .footer {
   background-image: url(./images/footer-image.png);
   height: 325px;
+  vertical-align: bottom;
 }
 
 .footer-container {
