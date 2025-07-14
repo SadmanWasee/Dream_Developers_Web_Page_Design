@@ -39,7 +39,6 @@ body {
   top: 44px;
   color: white;
   cursor: pointer;
-  z-index: 999;
 }
 
 
@@ -48,10 +47,9 @@ body {
 }
 
 .navbar ul {
-  display: inline-block;
-  position: relative;
-  left: 200px;
-  padding-top: 30px;
+
+  padding-left: 300px;
+  padding-top: 33px;
   margin: 0;
 }
 
