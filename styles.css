@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .clearfix::after {
@@ -118,7 +118,7 @@ body {
 }
 
 .left-right-icons {
-  padding-top: 80px;
+  padding-top: 120px;
   width: 15%;
   float: right;
   font-size: 24px;
@@ -127,10 +127,6 @@ body {
 .left-right-icons a {
   text-decoration: none;
   color: darkgray;
-}
-
-.main-container {
-  position: relative;
 }
 
 .center-container {
@@ -168,7 +164,7 @@ body {
 }
 
 .right-border {
-  border-right: 2px solid rgb(204, 204, 204);
+  border-right: 2px solid #CCCCCC;
   padding-right: 10px;
 }
 
@@ -221,14 +217,6 @@ body {
 .project-images div {
   float: left;
   padding-right: 4px;
-  width: 24.5%;
-}
-
-.project-1,
-.project-2,
-.project-3,
-.project-4 {
-
   cursor: pointer;
 }
 
@@ -403,11 +391,9 @@ body {
   margin-top: 10px;
 }
 
-
 .address-header {
   display: inline-block;
 }
-
 
 .quick-links h4 {
   display: inline-block;
