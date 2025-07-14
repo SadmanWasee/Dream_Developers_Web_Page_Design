@@ -42,10 +42,6 @@ body {
   z-index: 999;
 }
 
-.navbar ul{
-  padding-top: 30px;
-  margin: 0;
-}
 
 .dream {
   font-weight: 500;
@@ -55,6 +51,8 @@ body {
   display: inline-block;
   position: relative;
   left: 200px;
+  padding-top: 30px;
+  margin: 0;
 }
 
 .navbar ul li {
