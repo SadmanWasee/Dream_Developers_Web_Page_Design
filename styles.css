@@ -100,22 +100,26 @@ body {
   position: relative;
   width: 1000px;
   margin: 0 auto;
+  padding-top: 200px;
 }
 
 .banner-message {
-  position: absolute;
-  top: 150px;
+  width: 350px;
   background-color: white;
   opacity: 0.80;
   padding: 10px 15px;
+  padding-right: 5px;
 }
 
 .banner-text {
-  width: 90%;
+  float: left;
+  width: 85%;
   margin: 0 auto;
 }
 
 .left-right-icons {
+  padding-top: 80px;
+  width: 15%;
   float: right;
   font-size: 24px;
 }
