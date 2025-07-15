@@ -30,7 +30,6 @@ body {
 
 .logo {
   float: left;
-  padding-bottom: 6px;
 }
 
 .logo img {
@@ -39,7 +38,7 @@ body {
 
 .brand-name {
   position: absolute;
-  margin-left: 20px;
+  padding-left: 20px;
   top: 44px;
   color: white;
   cursor: pointer;
@@ -51,7 +50,7 @@ body {
 
 .navbar ul {
   padding-left: 300px;
-  padding-top: 33px;
+  padding-top: 31px;
   margin: 0;
   list-style: none;
 }
@@ -310,6 +309,7 @@ body {
   width: 28.5%;
   border-left: 4px solid #d9d9d9;
   padding-left: 0px;
+  padding-bottom: 20px;
 }
 
 .about-us-right div {
@@ -333,8 +333,7 @@ body {
 
 .footer {
   background-image: url(./images/footer-image.png);
-  height: 325px;
-  vertical-align: bottom;
+  height: 350px;
 }
 
 .footer-container {
@@ -352,8 +351,8 @@ body {
 .address,
 .quick-links,
 .subscribe {
-  width: 23%;
-  padding-right: 20px;
+  width: 21%;
+  padding-right: 40px;
 }
 
 .testimonial .left-arrow {
